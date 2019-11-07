@@ -23,6 +23,42 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #32c3ff;
+}
+
+.allbeers__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+h1,
+h2,
+h3 {
+  color: #32c3ff;
+}
+
+strong,
+p {
+  color: #fff;
 }
