@@ -19,7 +19,7 @@ class Home extends Component {
         </div>
         <div className="container">
           <img src="/images/random-beer.png" alt="" />
-          <Link to="/random-beer">
+          <Link to="/beers/random-beer">
             <h1>Random Beer</h1>
           </Link>
           <p>
@@ -31,7 +31,7 @@ class Home extends Component {
         </div>
         <div className="container">
           <img src="/images/new-beer.png" alt="" />
-          <Link to="/new-beer">
+          <Link to="/beers/new-beer">
             <h1>New Beer</h1>
           </Link>
           <p>

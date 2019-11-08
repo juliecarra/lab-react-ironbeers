@@ -54,11 +54,18 @@ nav {
 
 h1,
 h2,
-h3 {
+h3,
+label {
   color: #32c3ff;
 }
 
 strong,
 p {
   color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
